@@ -11,6 +11,7 @@
  '(mark-even-if-inactive t)
  '(scroll-bar-mode (quote right))
  '(transient-mark-mode 1))
+(fset 'yes-or-no-p 'y-or-n-p)
 (custom-set-faces
   ;; custom-set-faces was added by Custom.
   ;; If you edit it by hand, you could mess it up, so be careful.
@@ -69,7 +70,8 @@
                  ))
 
 (add-to-list 'auto-mode-alist '("\\.olg\\'" . prolog-mode))
-
+(add-hook 'text-mode-hook 'flyspell-mode)
+(add-hook 'prog-mode-hook 'flyspell-prog-mode)
 
 (put 'upcase-region 'disabled nil)
 (put 'downcase-region 'disabled nil)
