@@ -16,4 +16,6 @@ alias ssw1='ssh ubuntu@10.2.184.76'
 
 alias ssctl='ssh ubuntu@10.2.184.75'
 
+alias sschef='ssh ubuntu@10.2.184.43'
+
 alias shtl='sshuttle -v -r ubuntu@75.55.106.244 10.2.184.0/24'
