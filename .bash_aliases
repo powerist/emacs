@@ -8,18 +8,28 @@ alias mv='mv -iv'
 
 alias ..='cd ..'
 
-alias ssgw='ssh ubuntu@192.168.254.2'
+alias ssgw='ssh ubuntu@192.168.254.13'
 
-alias ssw2='ssh ubuntu@192.168.254.10'
+alias ssw1='ssh ubuntu@192.168.254.18'
 
-alias ssw1='ssh ubuntu@192.168.254.9'
+alias ssw2='ssh ubuntu@192.168.254.22'
 
-alias ssw3='ssh ubuntu@192.168.254.11'
+alias ssw3='ssh ubuntu@192.168.254.30'
 
-alias ssw4='ssh ubuntu@192.168.254.29'
+alias ssctl='ssh ubuntu@192.168.254.15'
 
-alias ssctl='ssh ubuntu@192.168.254.7'
+alias sschef='ssh ubuntu@192.168.254.14'
 
-alias sschef='ssh ubuntu@192.168.254.4'
+alias ssryu1='ssh ubuntu@192.168.254.34'
 
-alias shtl='sshuttle -v -r ubuntu@135.207.223.159 192.168.254.0/24'
+alias ssryu2='ssh ubuntu@192.168.254.35'
+
+alias ssryu3='ssh ubuntu@192.168.254.36'
+
+alias sszk1='ssh ubuntu@192.168.254.31'
+
+alias sszk2='ssh ubuntu@192.168.254.32'
+
+alias sszk3='ssh ubuntu@192.168.254.33'
+
+alias shtl='sshuttle -v -r ubuntu@135.207.223.160 192.168.254.0/24'
