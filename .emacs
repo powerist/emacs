@@ -1,4 +1,4 @@
-(load-file "/home/cchen/softWare/ProofGeneral-4.2/generic/proof-site.el")
+(load-file "~/.emacs.d/ProofGeneral-4.2/generic/proof-site.el")
 (put 'set-goal-column 'disabled nil)
 (put 'dired-find-alternate-file 'disabled nil)
 (custom-set-variables
