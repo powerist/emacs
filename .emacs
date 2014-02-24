@@ -42,6 +42,9 @@
 (defalias 'list-buffers 'ibuffer)
 (icomplete-mode t)
 
+(custom-set-variables
+ '(initial-frame-alist (quote ((fullscreen . maximized)))))
+
 (show-paren-mode 1)
 
 ;(setq skeleton-pair t)
@@ -75,3 +78,6 @@
 
 (put 'upcase-region 'disabled nil)
 (put 'downcase-region 'disabled nil)
+
+(load "auctex.el" nil t t)
+(load "preview-latex.el" nil t t)
