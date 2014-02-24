@@ -1,3 +1,4 @@
+; Proof General
 (load-file "~/.emacs.d/ProofGeneral-4.2/generic/proof-site.el")
 (put 'set-goal-column 'disabled nil)
 (put 'dired-find-alternate-file 'disabled nil)
@@ -72,12 +73,22 @@
                  ;; (dired-omit-mode 1)
                  ))
 
+; Startmode
 (add-to-list 'auto-mode-alist '("\\.olg\\'" . prolog-mode))
 (add-hook 'text-mode-hook 'flyspell-mode)
 (add-hook 'prog-mode-hook 'flyspell-prog-mode)
+(add-hook 'text-mode-hook 'turn-on-auto-fill)
+(setq-default fill-column 80)
 
 (put 'upcase-region 'disabled nil)
 (put 'downcase-region 'disabled nil)
 
+; AUCtex setup
 (load "auctex.el" nil t t)
 (load "preview-latex.el" nil t t)
+(setq TeX-view-program-list '(("Evince" "evince --page-index=%(outpage) %o")))
+(setq TeX-view-program-selection '((output-pdf "Evince")))
+(add-hook 'LaTeX-mode-hook 'TeX-source-correlate-mode)
+(setq TeX-source-correlate-start-server t)
+(setq TeX-PDF-mode t)
+(setq-default TeX-master nil) ; Query for master file.
