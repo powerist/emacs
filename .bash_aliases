@@ -8,28 +8,56 @@ alias mv='mv -iv'
 
 alias ..='cd ..'
 
-alias ssgw='ssh ubuntu@192.168.254.13'
+####################
 
-alias ssw1='ssh ubuntu@192.168.254.18'
+alias ssd1gw='ssh ubuntu@192.168.254.13'
 
-alias ssw2='ssh ubuntu@192.168.254.22'
+alias ssd1w1='ssh ubuntu@192.168.254.18'
 
-alias ssw3='ssh ubuntu@192.168.254.30'
+alias ssd1w2='ssh ubuntu@192.168.254.22'
 
-alias ssctl='ssh ubuntu@192.168.254.15'
+alias ssd1w3='ssh ubuntu@192.168.254.30'
 
-alias sschef='ssh ubuntu@192.168.254.14'
+alias ssd1ctl='ssh ubuntu@192.168.254.15'
 
-alias ssryu1='ssh ubuntu@192.168.254.34'
+alias ssd1chef='ssh ubuntu@192.168.254.14'
 
-alias ssryu2='ssh ubuntu@192.168.254.35'
+alias ssd1ryu1='ssh ubuntu@192.168.254.34'
 
-alias ssryu3='ssh ubuntu@192.168.254.36'
+alias ssd1ryu2='ssh ubuntu@192.168.254.35'
 
-alias sszk1='ssh ubuntu@192.168.254.31'
+alias ssd1ryu3='ssh ubuntu@192.168.254.36'
 
-alias sszk2='ssh ubuntu@192.168.254.32'
+alias ssd1zk1='ssh ubuntu@192.168.254.31'
 
-alias sszk3='ssh ubuntu@192.168.254.33'
+alias ssd1zk2='ssh ubuntu@192.168.254.32'
 
-alias shtl='sshuttle -v -r ubuntu@135.207.223.160 192.168.254.0/24'
+alias ssd1zk3='ssh ubuntu@192.168.254.33'
+
+alias shtld1='sshuttle -v -r ubuntu@135.207.223.160 192.168.254.0/24'
+
+####################
+
+alias ssd2gw='ssh ubuntu@10.255.100.37'
+
+alias ssd2w1='ssh ubuntu@10.255.100.39'
+
+alias ssd2w2='ssh ubuntu@10.255.100.40'
+
+alias ssd2w3='ssh ubuntu@10.255.100.41'
+
+alias ssd2w4='ssh ubuntu@10.255.100.42'
+
+alias ssd2ryu1='ssh ubuntu@10.255.100.21'
+
+alias ssd2ryu2='ssh ubuntu@10.255.100.22'
+
+alias ssd2ryu3='ssh ubuntu@10.255.100.24'
+
+alias ssd2zk1='ssh ubuntu@10.255.100.31'
+
+alias ssd2zk2='ssh ubuntu@10.255.100.35'
+
+alias ssd2zk3='ssh ubuntu@10.255.100.36'
+
+alias shtld2='sshuttle -v -r ubuntu@135.197.225.177 10.255.100.0/24'
