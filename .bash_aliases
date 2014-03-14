@@ -18,6 +18,8 @@ alias ssd1w2='ssh ubuntu@192.168.254.22'
 
 alias ssd1w3='ssh ubuntu@192.168.254.30'
 
+alias ssd1gn='ssh ubuntu@192.168.254.4'
+
 alias ssd1ctl='ssh ubuntu@192.168.254.15'
 
 alias ssd1chef='ssh ubuntu@192.168.254.14'
@@ -47,6 +49,8 @@ alias ssd2w2='ssh ubuntu@10.255.100.40'
 alias ssd2w3='ssh ubuntu@10.255.100.41'
 
 alias ssd2w4='ssh ubuntu@10.255.100.42'
+
+alias ssd2gn='ssh ubuntu@10.255.100.47'
 
 alias ssd2ryu1='ssh ubuntu@10.255.100.21'
 
