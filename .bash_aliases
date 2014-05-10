@@ -40,23 +40,19 @@ alias shtld1='sshuttle -v -r ubuntu@135.207.223.153 192.168.254.0/24'
 
 ####################
 
-alias ssd2gw='ssh ubuntu@10.255.100.37'
+alias ssd2gw='ssh ubuntu@192.168.254.13'
 
-alias ssd2w1='ssh ubuntu@10.255.100.39'
+alias ssd2c1='ssh ubuntu@192.168.254.4'
 
-alias ssd2w2='ssh ubuntu@10.255.100.40'
+alias ssd2c2='ssh ubuntu@192.168.254.7'
 
-alias ssd2w3='ssh ubuntu@10.255.100.41'
+alias ssd2c3='ssh ubuntu@192.168.254.9'
 
-alias ssd2w4='ssh ubuntu@10.255.100.42'
+alias ssd2ryu1='ssh ubuntu@192.168.254.14'
 
-alias ssd2gn='ssh ubuntu@10.255.100.47'
+alias ssd2ryu2='ssh ubuntu@192.168.254.15'
 
-alias ssd2ryu1='ssh ubuntu@10.255.100.21'
-
-alias ssd2ryu2='ssh ubuntu@10.255.100.22'
-
-alias ssd2ryu3='ssh ubuntu@10.255.100.24'
+alias ssd2ryu3='ssh ubuntu@192.168.254.18'
 
 alias ssd2zk1='ssh ubuntu@10.255.100.31'
 
@@ -64,7 +60,7 @@ alias ssd2zk2='ssh ubuntu@10.255.100.35'
 
 alias ssd2zk3='ssh ubuntu@10.255.100.36'
 
-alias shtld2='sshuttle -v -r ubuntu@135.197.225.170 10.255.100.0/24'
+alias shtld2='sshuttle -v -r ubuntu@135.207.223.153 192.168.254.0/24'
 
 ####################
 
