@@ -92,3 +92,7 @@
 (setq TeX-source-correlate-start-server t)
 (setq TeX-PDF-mode t)
 (setq-default TeX-master nil) ; Query for master file.
+
+; Color scheme
+(add-to-list 'default-frame-alist '(foreground-color . "#E0DFDB"))
+(add-to-list 'default-frame-alist '(background-color . "#102372"))
