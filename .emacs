@@ -1,7 +1,7 @@
 ; Proof General
-(load-file "~/.emacs.d/ProofGeneral-4.2/generic/proof-site.el")
-(put 'set-goal-column 'disabled nil)
-(put 'dired-find-alternate-file 'disabled nil)
+;(load-file "~/.emacs.d/ProofGeneral-4.2/generic/proof-site.el")
+;(put 'set-goal-column 'disabled nil)
+;(put 'dired-find-alternate-file 'disabled nil)
 (custom-set-variables
   ;; custom-set-variables was added by Custom.
   ;; If you edit it by hand, you could mess it up, so be careful.
