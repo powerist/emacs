@@ -12,3 +12,8 @@
 (add-hook 'prog-mode-hook 'flyspell-prog-mode)
 (add-hook 'text-mode-hook 'turn-on-auto-fill)
 (setq-default fill-column 80)
+
+; Set up background color
+;(add-to-list 'default-frame-alist '(foreground-color . "#E0DFDB"))
+(add-to-list 'default-frame-alist '(background-color . "#DBEEDD"))
+
